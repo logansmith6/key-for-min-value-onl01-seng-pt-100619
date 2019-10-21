@@ -3,9 +3,7 @@
 
 def key_for_min_value(name_hash)
 
-if name_hash == nil
-  return nil
-end
+
 
 min = 10000
 name_hash.collect do |key, value|
@@ -21,5 +19,8 @@ name_hash.collect do |key, value|
   end
 end
 string
+if name_hash == nil
+  return nil
+end
 
 end
