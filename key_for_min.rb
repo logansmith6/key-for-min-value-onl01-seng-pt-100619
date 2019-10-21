@@ -19,10 +19,8 @@ name_hash.collect do |key, value|
 
   end
 end
-if name_hash == nil
-  return nil
-else
+
 string
-end
+
 
 end
