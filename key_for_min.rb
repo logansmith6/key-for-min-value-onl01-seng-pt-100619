@@ -14,9 +14,8 @@ name_hash.collect do |key, value|
   if value == min
     string = key
 
-  else
   end
 end
-
+string
 
 end
