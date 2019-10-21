@@ -9,10 +9,10 @@ name_hash.collect do |key, value|
     min = value
   end
 end
-
+string = ""
 name_hash.collect do |key, value|
   if value == min
-    key
+    string = key
 
   else
   end
