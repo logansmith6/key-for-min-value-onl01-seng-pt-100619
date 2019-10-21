@@ -9,6 +9,8 @@ min = 10000
 name_hash.collect do |key, value|
   if value < min
     min = value
+  elsif value == 0
+    nil
   end
 end
 string = ""
@@ -19,8 +21,6 @@ name_hash.collect do |key, value|
   end
 end
 string
-if name_hash == 0
-  return nil
-end
+
 
 end
