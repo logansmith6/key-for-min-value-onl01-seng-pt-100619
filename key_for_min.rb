@@ -17,7 +17,8 @@ string = ""
 name_hash.collect do |key, value|
   if value == min
     string = key
-
+  elsif value == nil
+    nil
   end
 end
 string
