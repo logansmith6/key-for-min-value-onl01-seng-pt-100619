@@ -9,12 +9,12 @@ name_hash.collect do |key, value|
     min = value
   end
 end
-test_key
+
 name_hash.collect do |key, value|
   if value == min
     test_key = key
   end
 end
-return test_key
+
 
 end
