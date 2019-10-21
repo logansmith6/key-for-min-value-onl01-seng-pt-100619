@@ -9,14 +9,14 @@ min = 10000
 name_hash.collect do |key, value|
   if value < min
     min = value
-  
+
   end
 end
 string = ""
 name_hash.collect do |key, value|
   if value == min
     string = key
-  
+
   end
 end
 if name_hash == nil
