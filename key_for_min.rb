@@ -4,8 +4,7 @@
 def key_for_min_value(name_hash)
 
   if name_hash.size == 0
-    nil
-    break
+    yield nil
   end
 
 
