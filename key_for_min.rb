@@ -12,7 +12,8 @@ end
 
 name_hash.collect do |key, value|
   if value == min
-    test_key = key
+    key
+  else
   end
 end
 
