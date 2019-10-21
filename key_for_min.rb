@@ -3,9 +3,7 @@
 
 def key_for_min_value(name_hash)
 
-if name_hash.size == 0
-  nil
-end
+
 
 
 min = 10000
@@ -25,5 +23,7 @@ end
 
 string
 
-
+if name_hash.size == 0
+  nil
+end
 end
